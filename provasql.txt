@@ -1,0 +1,19 @@
+1)SELECT TOP (1000) [ProductID]
+      ,[ProductName]
+      ,[SupplierID]
+      ,[CategoryID]
+      ,[QuantityPerUnit]
+      ,[UnitPrice]
+      ,[UnitsInStock]
+      ,[UnitsOnOrder]
+      ,[ReorderLevel]
+      ,[Discontinued]
+  FROM [master].[dbo].[Products]
+
+2) WHERE UnitPrice>40
+3) WHERE City='London'
+4)ORDER BY Freight ASC
+5)  WHERE Freight >=90 and Freight<=200
+6)WHERE CategoryID=1
+7)WHERE Discount>0
+8)WHERE CustomerID='BOTTM' and Freight>50
